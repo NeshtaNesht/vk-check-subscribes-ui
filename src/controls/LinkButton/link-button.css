@@ -1,0 +1,19 @@
+.link-button {
+  cursor: pointer;
+  color: var(--main-dark);
+
+  &:hover {
+    & > h3 {
+      color: var(--main);
+    }
+    .link-button-icon {
+      background-color: var(--main);
+      color: var(--main-white);
+    }
+  }
+}
+
+.link-button-icon {
+  padding: var(--gap-mini);
+  border-radius: var(--gap-mini);
+}

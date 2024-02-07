@@ -1,0 +1,7 @@
+.card {
+  border-radius: var(--border-radius);
+  background-color: var(--main-white);
+  border-color: var(--main-blue-dark);
+  padding: var(--default-margin);
+  overflow: auto;
+}
